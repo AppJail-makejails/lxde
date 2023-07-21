@@ -1,13 +1,8 @@
 INCLUDE options/options.makejail
 
-PKG lxde-meta
+ARG lxde_tag=13.2
 
-CMD pw useradd -n lxde -c "Lightweight X11 Desktop Environment" -d /home/lxde -s /bin/sh
-CMD mkdir -p /home/lxde
-CMD chown lxde:lxde /home/lxde
-
-SYSRC dbus_enable=YES
-SERVICE dbus start
+FROM --entrypoint gh+AppJail-makejails/lxde lxde:${lxde_tag}
 
 STOP
 

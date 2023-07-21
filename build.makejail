@@ -1,0 +1,9 @@
+INCLUDE options/options.makejail
+
+PKG lxde-meta
+
+CMD pw useradd -n lxde -c "Lightweight X11 Desktop Environment" -d /home/lxde -s /bin/sh
+CMD mkdir -p /home/lxde
+CMD chown lxde:lxde /home/lxde
+
+SYSRC dbus_enable=YES
