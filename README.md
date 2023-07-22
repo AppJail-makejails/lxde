@@ -13,7 +13,7 @@ INCLUDE options/network.makejail
 INCLUDE gh+AppJail-makejails/lxde
 
 OPTION copydir=files
-OPTION file=/etc/rc.conf
+OPTION file=/etc/rc.conf.local
 OPTION x11
 ```
 
@@ -33,12 +33,12 @@ The tree structure of the `files/` directory is as follows:
 # tree -pug files/
 [drwxr-xr-x root     wheel   ]  files/
 └── [drwxr-xr-x root     wheel   ]  etc
-    └── [-rw-r--r-- root     wheel   ]  rc.conf
+    └── [-rw-r--r-- root     wheel   ]  rc.conf.local
 
 1 directory, 1 file
 ```
 
-Where `rc.conf` is your custom `rc.conf(5)` file, for example:
+Where `rc.conf.local` is your custom `rc.conf(5)` file, for example:
 
 ```
 clear_tmp_X="NO"
