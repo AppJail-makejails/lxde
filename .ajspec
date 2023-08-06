@@ -1,17 +1,9 @@
-tags: 13.1
-13.1.arch: amd64
-13.1.name: "lxde"
-13.1.timestamp.amd64: 1689985197
-13.1.sum.amd64: 66813e27e289cabd4599dcd12568d7b0a27c9ce81522c556db4320bc0cb7fa25
-13.1.size.amd64: 171981436
-13.1.source.amd64: https://dtxdf.duckdns.org/Uec22837ze/lxde_13_1_amd64_image_appjail
-13.1.source.amd64+: https://anonget.onrender.com/Uec22837ze/lxde_13_1_amd64_image_appjail
-
-tags+: 13.2
+tags: 13.2
 13.2.arch: amd64
 13.2.name: "lxde"
-13.2.timestamp.amd64: 1689985190
-13.2.sum.amd64: d0a44e4018b4908bcfe46fa71284015fdb9bb773dd4494f416518dc227ad341a
-13.2.size.amd64: 172784200
-13.2.source.amd64: https://dtxdf.duckdns.org/Nfc6203dz5/lxde_13_2_amd64_image_appjail
-13.2.source.amd64+: https://anonget.onrender.com/Nfc6203dz5/lxde_13_2_amd64_image_appjail
+13.2.timestamp.amd64: 1691181012
+13.2.sum.amd64: 9a023869b59cff06903c7593b635dc78bfd8b8fcce45e1d80c308c6ddf2d8502
+13.2.size.amd64: 174459380
+13.2.source.amd64: https://dtxdf.duckdns.org/xdF6O664z5/lxde_13_2_amd64_image_appjail
+13.2.source.amd64+: https://storm-bsd.duckdns.org/xdF6O664z5/lxde_13_2_amd64_image_appjail
+13.2.source.amd64+: https://anonget.onrender.com/xdF6O664z5/lxde_13_2_amd64_image_appjail
