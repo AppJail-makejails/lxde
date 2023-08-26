@@ -1,7 +1,7 @@
 tags: 13.2
 13.2.arch: amd64
 13.2.name: "lxde"
-13.2.timestamp.amd64: 1692010855
-13.2.sum.amd64: 5f641ced4a4328ca6e8842d10671bc30bd6d2559715de0f5cdb49519c267bf1f
-13.2.size.amd64: 173712884
-13.2.source.amd64: "https://drive.google.com/uc?export=download&id=1uLTnOySPFzkM_EYaE9lZPc_83F_Br0m6&confirm=t&uuid=31801324-4b90-43fc-9161-41d1cd80d3e7"
+13.2.timestamp.amd64: 1692966795
+13.2.sum.amd64: db77e35cd132bcc0638ecf244bbff5a2c0e5483a089cfbda50c297a8bb87c887
+13.2.size.amd64: 173505144
+13.2.source.amd64: "http://appjail.hpc.at/lxde/13.2-amd64-image.appjail"
