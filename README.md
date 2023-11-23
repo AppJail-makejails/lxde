@@ -94,4 +94,4 @@ appjail image export lxde
 
 | Tag        | Arch    | Version           | Type   |
 | ---------- | ------- | ----------------- | ------ |
-| `13.2`     | `amd64` | `13.2-RELEASE-p4` | `thin` |
+| `13.2`     | `amd64` | `13.2-RELEASE` | `thin` |
