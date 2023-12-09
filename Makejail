@@ -8,11 +8,7 @@ STOP
 
 STAGE custom:lxde_open
 
-ARG display=:0
-
-CMD --local env "DISPLAY=${display}" xhost + > /dev/null
-
-ENV DISPLAY=${display}
+ENV DISPLAY=:0
 
 USER lxde
 RUN /usr/local/bin/ck-launch-session /usr/local/bin/dbus-launch startlxde

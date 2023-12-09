@@ -57,7 +57,8 @@ After Makejail builds the jail, you can run LXDE using the `lxde_open` custom st
 
 ```
 Xephyr -screen 900x640 -br -ac -noreset :1 &
-appjail run -s lxde_open -p 'display=:1' lxde
+xhost +
+appjail run -s lxde_open -V DISPLAY=:1 lxde
 ```
 
 ### Arguments
