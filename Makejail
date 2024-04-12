@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG lxde_tag=13.2
+ARG lxde_tag=13.3
 
 FROM --entrypoint gh+AppJail-makejails/lxde lxde:${lxde_tag}
 
