@@ -63,11 +63,11 @@ appjail run -s lxde_open -V DISPLAY=:1 lxde
 
 ### Arguments
 
-* `lxde_tag` (default: `13.3`): see [#tags](#tags).
+* `lxde_tag` (default: `13.4`): see [#tags](#tags).
 
 ## Tags
 
 | Tag        | Arch    | Version        | Type   |
 | ---------- | ------- | -------------- | ------ |
-| `13.3`     | `amd64` | `13.3-RELEASE` | `thin` |
+| `13.4`     | `amd64` | `13.4-RELEASE` | `thin` |
 | `14.1`     | `amd64` | `14.1-RELEASE` | `thin` |
