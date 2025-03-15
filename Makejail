@@ -1,6 +1,6 @@
 INCLUDE options/options.makejail
 
-ARG lxde_tag=13.4
+ARG lxde_tag=13.5
 ARG lxde_ajspec=gh+AppJail-makejails/lxde
 
 FROM --entrypoint "${lxde_ajspec}" lxde:${lxde_tag}
